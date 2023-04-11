@@ -1,0 +1,5 @@
+---
+helm_directory: postgresql
+release_name: postgresql
+service_name: postgresql
+allowlist_helm_chart_container_names: []

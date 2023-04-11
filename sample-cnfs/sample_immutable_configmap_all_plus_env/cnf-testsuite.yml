@@ -1,0 +1,5 @@
+---
+helm_directory: chart
+release_name: coredns
+service_name: coredns-coredns
+allowlist_helm_chart_container_names: []

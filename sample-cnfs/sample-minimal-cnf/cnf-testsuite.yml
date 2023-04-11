@@ -1,0 +1,3 @@
+---
+helm_chart: stable/coredns
+release_name: coredns-1614713069

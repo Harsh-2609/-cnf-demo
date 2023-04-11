@@ -1,0 +1,9 @@
+---
+release_name: ueransim
+helm_repository:
+  name: openverso
+  repo_url: https://gradiant.github.io/openverso-charts/
+helm_chart: openverso/ueransim-gnb
+helm_values: "--version 0.2.2 --values https://gradiant.github.io/openverso-charts/docs/open5gs-ueransim-gnb/gnb-ues-values.yaml --set image.registry=docker.io --set image.repository=conformance/ueransim --set image.tag=latest"
+allowlist_helm_chart_container_names: [falco, node-cache, nginx, coredns, calico-node, kube-proxy, nginx-proxy]
+
